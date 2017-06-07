@@ -284,7 +284,7 @@ p {
 
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
 
 .learn-more {
      width: 60%;
@@ -295,17 +295,21 @@ p {
 
     .footer {
         flex-direction: column;
-        justify-content: space-around;
     }
 
     .footer span {
-        with: 100%;
+        width: 100%;
     }
 
     .botton-nav li {
         flex-direction: column;
         text-align: center;
-        padding-left: .75rem;
+        width: 100%;
+        text-align: center;
     }
 
+    .bottom-nav img {
+        margin-left: -1.75rem;
+
+    }
 }
