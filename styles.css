@@ -1,0 +1,266 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Raleway','Open Sans', 'sans serif';
+    margin: 0;
+    padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1  {
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin: 2.5rem;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    margin: 2.5rem 0;
+    text-align: center;
+}
+
+/*----------------------------- Banner ----------------------------------*/
+
+.banner {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px black solid;
+    width: 100%;
+    background-image: url(landscape%20banner.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.logo {
+    font-family: 'Raleway', 'Open Sans', 'sans serif';
+    width: 30%;
+}
+
+.logo h1 {
+    color: white;
+}
+
+
+/*--------------------------- Navigation ----------------------------*/
+
+.top-nav {
+    width: 40%;
+}
+
+.top-nav li {
+    display: inline-flex;
+    color: white;
+    font-weight: 500;
+}
+
+.top-nav a {
+    padding: 27px 20px;
+}
+
+nav a, nav a:visited {
+    color: aquamarine;
+}
+
+nav a:hover {
+    color: tomato;
+}
+
+nav a.selected {
+    color: yellow;
+}
+
+.social-icon {
+    list-style: none;
+    width: 25%;
+    text-align: center;
+}
+
+.social-icon li {
+    display: inline-flex;
+}
+
+.social-icon a {
+    padding: 10px;
+}
+
+
+.social-icon img {
+    border-radius: 4px;
+}
+
+/********************Content**************************/
+
+p {
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: tomato;
+    background-image: url(web%20design.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 900px;
+}
+
+.column {
+    width: 85%;
+    padding: 25px 25px;
+    color: white;
+}
+
+.learn-more {
+  font-size: 1.4rem;
+  font-family: 'Raleway','Open Sans', 'sans serif';
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 2px solid #FFFFFF;
+  padding: 6px 12px;
+  height: 40px;
+  width: 25%;
+  text-align: center;
+}
+
+
+/*--------------------------- Footer ---------------------------------*/
+
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    background-image: linear-gradient(to right, black, gray);
+    border: 1px black solid;
+    color: white;
+    padding: 5px 0;
+
+}
+
+.footer span {
+    text-align: center;
+    padding: 1rem 0 1rem 0;
+    width: 40%;
+}
+
+.bottom-nav {
+    width: 50%;
+    text-align: center;
+}
+
+.bottom-nav li {
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    margin-right: 1.5rem;
+}
+
+.bottom-nav img {
+    margin-right: 1rem;
+    border-radius: 50%;
+    text-align: center;
+}
+
+/*--------------------------- Tablet Screen ------------------------------*/
+
+@media (max-width: 1470px) {
+
+
+.banner {
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.logo {
+    width: 100%;
+    text-align: center;
+}
+
+.top-nav {
+    width: 100%;
+    text-align: center;
+}
+
+.social-icon {
+    width: 100%;
+    text-align: center
+}
+
+.footer {
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.footer span {
+        width: 100%;
+    }
+
+.bottom-nav {
+        width: 100%;
+        text-align: center;
+    }
+
+}
+
+/****************** Small Screen ******************/
+
+@media (max-width: 769px) {
+
+.banner,
+.wrapper,
+.top-nav {
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.logo h1 {
+    font-size: 1rem;
+}
+
+.top-nav,
+.social-icon {
+   margin-left: -15px;
+}
+
+.top-nav li {
+    width: 100%;
+}
+
+.top-nav a {
+    width: 100%;
+    text-align: center;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.wrapper h2 {
+    font-size: 1.25rem;
+    margin: .15rem 0;
+}
+
+.wrapper p {
+    font-size: 1.25rem;
+}
+
+.column {
+    width: 100%;
+}
+
+
+
+}
