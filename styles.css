@@ -58,7 +58,7 @@ h2 {
 .top-nav li {
     display: inline-flex;
     color: white;
-    font-weight: 500;
+    font-weight: 800;
 }
 
 .top-nav a {
@@ -66,11 +66,11 @@ h2 {
 }
 
 nav a, nav a:visited {
-    color: aquamarine;
+    color: black;
 }
 
 nav a:hover {
-    color: tomato;
+    color: white;
 }
 
 nav a.selected {
@@ -128,10 +128,13 @@ p {
   text-transform: uppercase;
   font-weight: bold;
   border: 2px solid #FFFFFF;
+  border-radius: 10px;
   padding: 6px 12px;
-  height: 40px;
-  width: 25%;
+  height: 2.5rem;
+  width: 20%;
   text-align: center;
+  background-color: grey;
+  color: black;
 }
 
 
@@ -217,7 +220,7 @@ p {
 
 /****************** Small Screen ******************/
 
-@media (max-width: 769px) {
+@media (max-width: 900px) {
 
 .banner,
 .wrapper,
@@ -261,6 +264,48 @@ p {
     width: 100%;
 }
 
+.learn-more {
+     width: 20%;
+    margin: auto;
+    font-size: 1rem;
+    padding: 1%;
+}
 
+}
+
+@media (max-width: 750px) {
+
+    .learn-more {
+     width: 40%;
+    margin: auto;
+    font-size: 1rem;
+    padding: 1%;
+}
+
+}
+
+@media (max-width: 500px) {
+
+.learn-more {
+     width: 60%;
+    margin: auto;
+    font-size: 1rem;
+    padding: 4%;
+}
+
+    .footer {
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .footer span {
+        with: 100%;
+    }
+
+    .botton-nav li {
+        flex-direction: column;
+        text-align: center;
+        padding-left: .75rem;
+    }
 
 }
