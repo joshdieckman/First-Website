@@ -141,18 +141,21 @@ p {
 }
 
 .learn-more {
-  font-size: 1.4rem;
-  font-family: 'Raleway','Open Sans', 'sans serif';
+  font-size: 1rem;
   text-transform: uppercase;
   font-weight: bold;
   border: 2px solid #FFFFFF;
   border-radius: 10px;
-  padding: 6px 12px;
-  height: 2.5rem;
+  height: 3rem;
   width: 20%;
   text-align: center;
   background-color: grey;
-  color: black;
+}
+
+.learn-more a {
+    height: 3rem;
+    width: 20%;
+    color: black;
 }
 
 
@@ -172,6 +175,7 @@ p {
     width: 100%;
     background-image: -webkit-gradient(linear, left top, right top, from(black), to(gray));
     background-image: linear-gradient(to right, black, gray);
+    font-size: 1rem;
     border: 1px black solid;
     color: white;
     padding: 5px 0;
@@ -253,11 +257,15 @@ p {
         text-align: center;
     }
 
+.learn-more {
+        width: 20%;
+}
+
 }
 
 /****************** Small Screen ******************/
 
-@media (max-width: 900px) {
+@media (max-width:769px) {
 
 .banner,
 .wrapper,
@@ -271,7 +279,7 @@ p {
 }
 
 .logo h1 {
-    font-size: 1rem;
+    font-size: 1.02rem;
 }
 
 .top-nav,
@@ -306,57 +314,18 @@ p {
 }
 
 .learn-more {
-     width: 20%;
+    width: 40%;
     margin: auto;
-    font-size: 1rem;
-    padding: 1%;
+    font-size: .75rem;
+}
+
+.footer span {
+    padding: .75rem .5rem;
+}
+
+.bottom-nav li {
+    padding: .75rem .5rem;
 }
 
 }
 
-@media (max-width: 750px) {
-
-    .learn-more {
-     width: 40%;
-    margin: auto;
-    font-size: 1rem;
-    padding: 1%;
-}
-
-}
-
-@media (max-width: 600px) {
-
-.learn-more {
-     width: 60%;
-    margin: auto;
-    font-size: 1rem;
-    padding: 4%;
-}
-
-    .footer {
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
-    }
-
-    .footer span {
-        width: 100%;
-    }
-
-    .botton-nav li {
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
-        text-align: center;
-        width: 100%;
-        text-align: center;
-    }
-
-    .bottom-nav img {
-        margin-left: -1.75rem;
-
-    }
-}
