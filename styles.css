@@ -43,7 +43,7 @@ h2 {
             justify-content: space-between;
     border: 1px black solid;
     width: 100%;
-    background-image: url(landscape%20banner.jpg);
+    background-image: url(eclipse.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -77,7 +77,7 @@ h2 {
 }
 
 nav a, nav a:visited {
-    color: black;
+    color: white;
 }
 
 nav a:hover {
@@ -127,7 +127,7 @@ p {
         -ms-flex-pack: center;
             justify-content: center;
     background-color: tomato;
-    background-image: url(web%20design.jpg);
+    background-image: url(circuit.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
