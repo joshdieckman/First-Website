@@ -131,7 +131,6 @@ p {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 1000px;
 }
 
 .column {
@@ -145,6 +144,21 @@ p {
     text-align: center;
 }
 
+.ann-inc img {
+    border-radius: 10px;
+}
+
+.interests {
+    text-align: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.interests img {
+    margin: 2rem 1.25rem;
+    border-radius: 10px;
+}
+
 .learn-more {
   font-size: 1rem;
   text-transform: uppercase;
@@ -155,6 +169,7 @@ p {
   width: 20%;
   text-align: center;
   background-color: grey;
+  margin: 2rem 0;
 }
 
 .learn-more a {
@@ -324,7 +339,7 @@ p {
 
 .learn-more {
     width: 40%;
-    margin: auto;
+    margin: 2rem auto;
     font-size: .75rem;
 }
 
