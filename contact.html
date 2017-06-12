@@ -34,10 +34,23 @@
     </header>
     <div class="wrapper">
         <div class="column">
-             <h2>Contact</h2>
-            <p>If you are reading this, you were probably referred here by my resume.  I am currently in search of a career change due to a lay off.  I am an aspiring programmer that would like to do it for a living.  I referred you here so you can see some of my work and to prove that I have minimal experience.  Feel free to check out the rest of my website to learn a little more about me while also testing my handy work.  I built this site myself using a free HTML editor called Brackets.  I would be glad to have you test it out and see if it holds up to your standards.  Afterwards, please leave me a comment.  I am interested to hear your thoughts.</p>
+            <form action="contact.html" method="post">
+                <h3>Are you interested?</h3>
+            <fieldset>
+                <legend>Contact Info</legend>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="user_name">
+                    <label for="mail">Email:</label>
+                    <input type="email" id="mail" name="user_email">
+            </fieldset>
+            <fieldset>
+                <h3>Feedback</h3>
+                    <label for="comment">Comment:</label>
+                    <textarea id="comment" name="user_comment"></textarea>
+            </fieldset>
+                <button type="submit">Submit</button>
+            </form>
         </div>
-        <button class="learn-more"><a href="index.html">Learn More</a></button>
     </div>
     <div class="footer">
         <span>&copy;2017 Joshua Dieckman</span>

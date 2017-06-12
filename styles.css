@@ -26,6 +26,76 @@ h2 {
     text-align: center;
 }
 
+/*------------------ FORM -------------------------------*/
+
+form {
+  max-width: 500px;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(black), to(gray));
+  border-radius: 8px;
+  color: white;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 1rem;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 20px;
+}
+
+select {
+  padding: 6px;
+  height: 32px;
+  border-radius: 2px;
+}
+
+button {
+  padding: 19px 39px 18px 39px;
+  color: black;
+  background-color: tomato;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid #3ac162;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  margin-bottom: 10px;
+}
+
+fieldset {
+  margin-bottom: 30px;
+  border: none;
+}
+
+legend {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+label.light {
+  font-weight: 300;
+  display: inline;
+}
+
 /*----------------------------- Banner ----------------------------------*/
 
 .banner {
@@ -109,7 +179,7 @@ nav a.selected {
     border-radius: 4px;
 }
 
-/********************Content**************************/
+/*-------------------- Content --------------------------------*/
 
 p {
     font-size: 1.5em;
@@ -156,6 +226,17 @@ p {
 
 .interests img {
     margin: 2rem 1.25rem;
+    border-radius: 10px;
+}
+
+.education {
+    text-align: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.education img {
+    margin: 2rem 2rem;
     border-radius: 10px;
 }
 
@@ -316,6 +397,12 @@ p {
     text-align: center;
 }
 
+form h3,
+legend {
+    font-size: 1rem;
+    text-align: center;
+}
+
 .wrapper {
     width: 100%;
 }
@@ -334,6 +421,10 @@ p {
 }
 
 .ann-inc {
+     margin: 2rem 0;
+}
+
+.education {
      margin: 2rem 0;
 }
 
