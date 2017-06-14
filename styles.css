@@ -72,7 +72,7 @@ button {
   width: 100%;
   border: 1px solid #3ac162;
   border-width: 1px 1px 3px;
-  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  box-shadow: 0 -1px 0 black inset;
   margin-bottom: 10px;
 }
 
@@ -210,6 +210,11 @@ p {
     font-weight: bold;
 }
 
+.github {
+    text-align: center;
+    margin: 4rem 0;
+}
+
 .ann-inc {
     text-align: center;
 }
@@ -250,7 +255,7 @@ p {
   width: 20%;
   text-align: center;
   background-color: grey;
-  margin: 2rem 0;
+  margin: 3rem 0;
   padding: 1rem 1rem 1.5rem 1rem;
 }
 
@@ -281,7 +286,6 @@ p {
     border: 1px black solid;
     color: white;
     padding: 5px 0;
-
 }
 
 .footer span {
@@ -344,6 +348,7 @@ p {
 
 .learn-more {
     padding: 1rem;
+    margin: 3rem 0;
 }
 
 .footer {
@@ -436,7 +441,7 @@ legend {
 
 .learn-more {
     width: 40%;
-    margin: 2rem auto;
+    margin: 3rem auto;
     font-size: .75rem;
     padding: 1rem .25rem;
 }
