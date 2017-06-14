@@ -195,7 +195,7 @@ p {
         flex-wrap: wrap;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
     background-color: tomato;
     background-image: url(circuit.png);
     background-repeat: no-repeat;
@@ -210,9 +210,13 @@ p {
     font-weight: bold;
 }
 
+.skills li {
+    padding: .5rem
+}
+
 .github {
     text-align: center;
-    margin: 4rem 0;
+    margin: 4rem 0 2rem 0;
 }
 
 .ann-inc {
@@ -348,7 +352,7 @@ p {
 
 .learn-more {
     padding: 1rem;
-    margin: 3rem 0;
+    margin: 3rem 0 6rem 0;
 }
 
 .footer {
@@ -441,7 +445,7 @@ legend {
 
 .learn-more {
     width: 40%;
-    margin: 3rem auto;
+    margin: 3rem auto 6rem auto;
     font-size: .75rem;
     padding: 1rem .25rem;
 }
