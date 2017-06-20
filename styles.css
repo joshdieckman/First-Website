@@ -256,6 +256,17 @@ p {
     width: 100%;
 }
 
+.doss img,
+.iwu img {
+    height: 9.4rem;
+    width: 15.6rem;
+}
+
+.codelouisville img {
+    height: 8rem;
+    width: 23rem;
+}
+
 .iwu img,
 .doss img,
 .codelouisville img {
