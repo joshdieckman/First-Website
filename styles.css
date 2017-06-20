@@ -208,6 +208,11 @@ p {
     padding: 25px 25px;
     color: white;
     font-weight: bold;
+    max-width: 1275px;
+}
+
+.column p {
+    padding: 25px 40px;
 }
 
 .skills li {
@@ -238,13 +243,16 @@ p {
     border-radius: 10px;
 }
 
-.education {
+.iwu,
+.doss,
+.codelouisville {
     text-align: center;
-    flex-wrap: wrap;
     width: 100%;
 }
 
-.education img {
+.iwu img,
+.doss img,
+.codelouisville img {
     margin: 2rem 2rem;
     border-radius: 10px;
 }
