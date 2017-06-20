@@ -215,8 +215,14 @@ p {
     padding: 25px 40px;
 }
 
+.skills {
+    padding: 25px 40px;
+}
+
 .skills li {
-    padding: .5rem
+    padding: .5rem;
+    font-size: 1.25rem;
+    text-align: center;
 }
 
 .github {
@@ -258,23 +264,27 @@ p {
 }
 
 .learn-more {
-  font-size: 1rem;
+  font-size: 1.25rem;
   text-transform: uppercase;
   font-weight: bold;
   border: 2px solid #FFFFFF;
-  border-radius: 10px;
-  height: 3rem;
+  height: 3.5rem;
   width: 20%;
   text-align: center;
+  justify-content: center;
   background-color: grey;
   margin: 3rem 0;
-  padding: 1rem 1rem 1.5rem 1rem;
+  padding-top: 1rem;
 }
 
 .learn-more a {
-    height: 3rem;
-    width: 20%;
+    text-align: center;
+    padding: .4rem;
     color: black;
+}
+
+.learn-more a:hover {
+    color: red;
 }
 
 
