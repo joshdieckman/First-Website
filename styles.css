@@ -181,6 +181,20 @@ nav a.selected {
 
 /*-------------------- Content --------------------------------*/
 
+
+#overlay {
+  text-align: center;
+}
+
+
+#overlay img {
+  border-radius: 10px;
+}
+
+#overlay p {
+  color: white;
+}
+
 p {
     font-size: 1.5em;
     font-weight: 300;
@@ -228,14 +242,6 @@ p {
 .github {
     text-align: center;
     margin: 4rem 0 2rem 0;
-}
-
-.ann-inc {
-    text-align: center;
-}
-
-.ann-inc img {
-    border-radius: 10px;
 }
 
 .interests {
