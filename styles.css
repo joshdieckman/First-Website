@@ -196,10 +196,6 @@ nav a.selected {
   background-color: red;
 }
 
-.hidden {
-    opacity: 0;
-}
-
 p {
     font-size: 1.5em;
     font-weight: 300;
@@ -271,6 +267,11 @@ p {
 .iwu img {
     height: 9.4rem;
     width: 15.6rem;
+}
+
+.dosspopup {
+    color: gold;
+    background-color: maroon;
 }
 
 .codelouisville img {
