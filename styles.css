@@ -182,17 +182,22 @@ nav a.selected {
 /*-------------------- Content --------------------------------*/
 
 
-#overlay {
+.ann-inc {
   text-align: center;
 }
 
 
-#overlay img {
+.ann-inc img {
   border-radius: 10px;
 }
 
-#overlay p {
+.popup {
   color: white;
+  background-color: red;
+}
+
+.hidden {
+    opacity: 0;
 }
 
 p {
