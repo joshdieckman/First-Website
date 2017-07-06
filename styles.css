@@ -471,12 +471,10 @@ legend {
 
 .wrapper {
     width: 100%;
-    margin-left: .15rem;
 }
 
 .wrapper h2 {
-    font-size: 1.25rem;
-    margin: .15rem 0;
+    font-size: 1.15rem;
 }
 
 .wrapper p {
@@ -490,6 +488,20 @@ legend {
 
 .ann-inc {
      margin: 2rem 0;
+}
+
+.ann-inc img {
+     height: 4.75rem;
+     width: 12.95rem;
+}
+
+.skills {
+     width: 100%;
+    padding: 0 .25rem;
+}
+
+.skills li {
+    font-size: 1rem;
 }
 
 .education {
