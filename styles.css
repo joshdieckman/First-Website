@@ -425,7 +425,7 @@ p {
     }
 
 .learn-more {
-        width: 20%;
+        width: 30%;
 }
 
 }
@@ -471,6 +471,7 @@ legend {
 
 .wrapper {
     width: 100%;
+    margin-left: .15rem;
 }
 
 .wrapper h2 {
@@ -480,6 +481,7 @@ legend {
 
 .wrapper p {
     font-size: 1.25rem;
+    padding: 0 .25rem;
 }
 
 .column {
@@ -494,19 +496,38 @@ legend {
      margin: 2rem 0;
 }
 
+.github img {
+   height: 10rem;
+   width: 12rem;
+}
+
 .learn-more {
-    width: 40%;
+    width: 45%;
     margin: 3rem auto 6rem auto;
     font-size: .75rem;
     padding: 1rem .25rem;
 }
 
 .footer span {
-    padding: .75rem .5rem;
+    padding: .5rem .5rem;
 }
 
 .bottom-nav li {
-    padding: .75rem .5rem;
+    padding: .5rem .5rem;
+}
+
+.copyright {
+     font-size: .75rem;
+}
+
+.email {
+    font-size: .75rem;
+    margin-left: -25px;
+}
+
+.phone {
+     font-size: .85rem;
+     margin-left: -10px;
 }
 
 }
