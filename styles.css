@@ -256,8 +256,6 @@ p {
 .interests img {
     margin: 2rem 1.25rem;
     border-radius: 10px;
-    height: 10rem;
-    width: 9rem;
 }
 
 .iwu,
@@ -539,6 +537,11 @@ legend {
 .github img {
    height: 10rem;
    width: 12rem;
+}
+
+.interests img {
+    height: 10rem;
+    width: 9rem;
 }
 
 .ann-inc p,
