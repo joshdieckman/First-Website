@@ -255,6 +255,8 @@ p {
 .interests img {
     margin: 2rem 1.25rem;
     border-radius: 10px;
+    height: 10rem;
+    width: 9rem;
 }
 
 .iwu,
