@@ -191,9 +191,10 @@ nav a.selected {
   border-radius: 10px;
 }
 
-.popup {
+.ann-incpopup {
   color: white;
   background-color: red;
+  border-radius: 50px;
 }
 
 p {
@@ -272,17 +273,19 @@ p {
 .dosspopup {
     color: gold;
     background-color: maroon;
-    border-radius: 10px;
+    border-radius: 50px;
 }
 
 .iwupopup {
     color: gray;
     background-color: darkred;
+    border-radius: 50px;
 }
 
 .codelouisvillepopup {
     color: white;
     background-color: black;
+    border-radius: 50px;
 }
 
 .codelouisville img {
@@ -492,8 +495,8 @@ legend {
 }
 
 .ann-inc img {
-     height: 4.75rem;
-     width: 12.95rem;
+     height: 5rem;
+     width: 13.25rem;
 }
 
 .skills {
@@ -530,6 +533,14 @@ legend {
 .github img {
    height: 10rem;
    width: 12rem;
+}
+
+.ann-inc p,
+    .doss p,
+    .iwu p,
+    .codelouisville p {
+    font-size: 1rem;
+    padding: 15px;
 }
 
 .learn-more {
