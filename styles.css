@@ -272,6 +272,7 @@ p {
 .dosspopup {
     color: gold;
     background-color: maroon;
+    border-radius: 10px;
 }
 
 .iwupopup {
@@ -508,6 +509,24 @@ legend {
      margin: 2rem 0;
 }
 
+.doss img {
+    height: 7rem;
+    width: 10rem;
+    margin: 2rem .25rem;
+}
+
+.iwu img {
+    height: 5.5rem;
+    width: 12rem;
+    margin: 2rem .25rem;
+}
+
+.codelouisville img {
+    height: 4rem;
+    width: 11rem;
+    margin: 2rem .25rem;
+}
+
 .github img {
    height: 10rem;
    width: 12rem;
@@ -517,7 +536,7 @@ legend {
     width: 45%;
     margin: 3rem auto 6rem auto;
     font-size: .75rem;
-    padding: 1rem .25rem;
+    padding: 1.2rem .25rem;
 }
 
 .footer span {
