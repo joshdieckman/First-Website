@@ -195,6 +195,7 @@ nav a.selected {
   color: white;
   background-color: red;
   border-radius: 50px;
+  border: 1px black solid;
 }
 
 p {
@@ -276,18 +277,21 @@ p {
     color: gold;
     background-color: maroon;
     border-radius: 50px;
+    border: 1px black solid;
 }
 
 .iwupopup {
-    color: gray;
+    color: darkgray;
     background-color: darkred;
     border-radius: 50px;
+    border: 1px black solid;
 }
 
 .codelouisvillepopup {
     color: white;
     background-color: black;
     border-radius: 50px;
+    border: 1px black solid;
 }
 
 .codelouisville img {
