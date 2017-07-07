@@ -51,7 +51,8 @@ select {
   width: 100%;
   background-color: #e8eeef;
   color: #8a97a0;
-  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+          box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
   margin-bottom: 20px;
 }
 
@@ -72,7 +73,8 @@ button {
   width: 100%;
   border: 1px solid #3ac162;
   border-width: 1px 1px 3px;
-  box-shadow: 0 -1px 0 black inset;
+  -webkit-box-shadow: 0 -1px 0 black inset;
+          box-shadow: 0 -1px 0 black inset;
   margin-bottom: 10px;
 }
 
@@ -249,7 +251,8 @@ p {
 
 .interests {
     text-align: center;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     width: 100%;
 }
 
@@ -312,7 +315,9 @@ p {
   height: 3.5rem;
   width: 20%;
   text-align: center;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background-color: grey;
   margin: 3rem 0;
   padding-top: 1rem;
@@ -344,6 +349,8 @@ p {
             flex-direction: row;
     width: 100%;
     background-image: -webkit-gradient(linear, left top, right top, from(black), to(gray));
+    background-image: -webkit-linear-gradient(left, black, gray);
+    background-image: -o-linear-gradient(left, black, gray);
     background-image: linear-gradient(to right, black, gray);
     font-size: 1rem;
     border: 1px black solid;
@@ -582,4 +589,3 @@ legend {
 }
 
 }
-
