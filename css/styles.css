@@ -115,7 +115,7 @@ label.light {
             justify-content: space-between;
     border: 1px black solid;
     width: 100%;
-    background-image: url(eclipse.jpg);
+    background-image: url(/../img/eclipse.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -216,7 +216,7 @@ p {
         -ms-flex-pack: center;
     justify-content: center;
     background-color: tomato;
-    background-image: url(circuit.png);
+    background-image: url(/../img/circuit.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
