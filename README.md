@@ -11,8 +11,8 @@ This website is able to be viewed across all version of browsers.
 
 ## Acknowledgements ##
 
-Code Louisville
-Mentors
-Treehouse 
-All the resources out there online
-My family for supporting me through this adventure
+#### Code Louisville
+#### Mentors
+#### Treehouse 
+#### All the resources out there online
+#### My family for supporting me through this adventure
