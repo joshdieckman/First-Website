@@ -4,8 +4,8 @@ This is the project that I completed for the Code Louisville program.  My inspir
 
 ## Built With ##
 
-### Brackets ### http://brackets.io.com
-### Google ### http://google.com
+#### Brackets http://brackets.io.com
+#### Google http://google.com
 
 This website is able to be viewed across all version of browsers.
 
