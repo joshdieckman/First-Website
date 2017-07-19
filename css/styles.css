@@ -98,7 +98,7 @@ label.light {
   display: inline;
 }
 
-/*----------------------------- Banner ----------------------------------*/
+/*----------------------------- Banner and logo formatting ----------------------------------*/
 
 .banner {
     display: -webkit-box;
@@ -172,6 +172,8 @@ nav a.selected {
     display: inline-flex;
 }
 
+/*----------------------Social Media Icons-----------------------*/
+
 .social-icon a {
     padding: 10px;
 }
@@ -183,6 +185,7 @@ nav a.selected {
 
 /*-------------------- Content --------------------------------*/
 
+/*-ANN INC Image and Pop up message for the experience page-*/
 
 .ann-inc {
   text-align: center;
@@ -199,6 +202,8 @@ nav a.selected {
   border-radius: 50px;
   border: 1px black solid;
 }
+
+/*-------------Paragraph formatting for all pages-----------*/
 
 p {
     font-size: 1.5em;
@@ -238,16 +243,22 @@ p {
     padding: 25px 40px;
 }
 
+/*---------------Skills bulleted list for the experience page---------------*/
+
 .skills li {
     padding: .5rem;
     font-size: 1.25rem;
     text-align: center;
 }
 
+/*---------------Github image formatting for the home page---------------*/
+
 .github {
     text-align: center;
     margin: 4rem 0 2rem 0;
 }
+
+/*-----BJJ and Basketball image formatting for the interests page---*/
 
 .interests {
     text-align: center;
@@ -260,6 +271,8 @@ p {
     margin: 2rem 1.25rem;
     border-radius: 10px;
 }
+
+/*---Image and pop up formatting for the education page---*/
 
 .iwu,
 .doss,
@@ -307,6 +320,8 @@ p {
     border-radius: 10px;
 }
 
+/*---button formatting for all pages----*/
+
 .learn-more {
   font-size: 1.25rem;
   text-transform: uppercase;
@@ -334,7 +349,7 @@ p {
 }
 
 
-/*--------------------------- Footer ---------------------------------*/
+/*-----------------------Footer-------------------------*/
 
 
 .footer {
@@ -364,6 +379,8 @@ p {
     width: 40%;
 }
 
+/*--------------------Bottom Navigation-------------------*/
+
 .bottom-nav {
     width: 50%;
     text-align: center;
@@ -387,10 +404,11 @@ p {
     text-align: center;
 }
 
-/*--------------------------- Tablet Screen ------------------------------*/
+/*------------------------------------------- Tablet Screen -----------------------------------------------*/
 
 @media (max-width: 1470px) {
 
+/*---------------Banner and logo formatting---------------------*/
 
 .banner {
     -ms-flex-wrap: wrap;
@@ -406,20 +424,29 @@ p {
     text-align: center;
 }
 
+/*-------------Navigation----------------*/
+
 .top-nav {
     width: 100%;
     text-align: center;
 }
+
+/*-----------Social Media icons----------*/
 
 .social-icon {
     width: 100%;
     text-align: center
 }
 
+/*----------Button formatting-----------*/
+
 .learn-more {
     padding: 1rem;
     margin: 3rem 0 6rem 0;
+    width: 30%;
 }
+
+/*-----------footer------------------*/
 
 .footer {
     -ms-flex-wrap: wrap;
@@ -434,20 +461,20 @@ p {
         width: 100%;
     }
 
+/*----------------Botton Navigation-----------*/
+
 .bottom-nav {
         width: 100%;
         text-align: center;
     }
 
-.learn-more {
-        width: 30%;
 }
 
-}
-
-/****************** Small Screen ******************/
+/*--------------------------------------------------Small Screen--------------------------------------------------------*/
 
 @media (max-width:769px) {
+
+/*-------------Banner, logo, social icon and navigation formatting----------------------*/
 
 .banner,
 .wrapper,
@@ -478,11 +505,15 @@ p {
     text-align: center;
 }
 
+/*-------form formatting for small screen------*/
+
 form h3,
 legend {
     font-size: 1rem;
     text-align: center;
 }
+
+/*------------Content formatting--------*/
 
 .wrapper {
     width: 100%;
@@ -501,6 +532,8 @@ legend {
     width: 100%;
 }
 
+/*--ANN INC image format for small screen--*/
+
 .ann-inc {
      margin: 2rem 0;
 }
@@ -510,6 +543,8 @@ legend {
      width: 13rem;
 }
 
+/*--Skills bulleted list format for small screen--*/
+
 .skills {
      width: 100%;
     padding: 0 .25rem;
@@ -518,6 +553,8 @@ legend {
 .skills li {
     font-size: 1rem;
 }
+
+/*--Education page images format for small screen--*/
 
 .education {
      margin: 2rem 0;
@@ -541,15 +578,21 @@ legend {
     margin: 2rem .25rem;
 }
 
+/*--Home page image format for small screen--*/
+
 .github img {
    height: 10rem;
    width: 12rem;
 }
 
+/*--Interest page images format for small screen--*/
+
 .interests img {
     height: 10rem;
     width: 9rem;
 }
+
+/*---image text format for small screen----*/
 
 .ann-inc p,
     .doss p,
@@ -559,6 +602,8 @@ legend {
     padding: 15px;
 }
 
+/*---Button format for small screen----*/
+
 .learn-more {
     width: 45%;
     margin: 3rem auto 6rem auto;
@@ -566,9 +611,13 @@ legend {
     padding: 1.2rem .25rem;
 }
 
+/*------footer-----*/
+
 .footer span {
     padding: .5rem .5rem;
 }
+
+/*---Bottom Navigation---*/
 
 .bottom-nav li {
     padding: .5rem .5rem;
