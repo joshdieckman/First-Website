@@ -1,6 +1,6 @@
 /*--------- Experience Page JavaScript -------------*/
 
-$(document).ready(function(){
+$(document).ready(function (){
     $(".ann-inc").click(function (){
     $(".ann-incpopup").toggle("slow");
     });
@@ -8,22 +8,28 @@ $(document).ready(function(){
 
 /*--------- Education page JavaScript --------------*/
 
-$(document).ready(function(){
+$(document).ready(function (){
     $(".doss").click(function (){
     $(".dosspopup").toggle("slow");
     });
 });
 
-$(document).ready(function(){
+$(document).ready(function (){
     $(".iwu").click(function (){
     $(".iwupopup").toggle("slow");
     });
 });
 
-$(document).ready(function(){
+$(document).ready(function (){
     $(".codelouisville").click(function (){
     $(".codelouisvillepopup").toggle("slow");
     });
 });
 
+/*-------- Contact page JavaScript --------*/
 
+$(document).ready(function (){
+    $(".submit").click(function (){
+    $(".submitpopup").toggle("slow");
+    });
+});

@@ -62,7 +62,7 @@ select {
   border-radius: 2px;
 }
 
-button {
+.submit {
   padding: 19px 39px 18px 39px;
   color: black;
   background-color: tomato;
@@ -318,6 +318,15 @@ p {
 .codelouisville img {
     margin: 2rem 2rem;
     border-radius: 10px;
+}
+
+/*---- popup formatting for the contact form ----*/
+
+.submitpopup {
+    color: black;
+    background-color: yellow;
+    border-radius: 50px;
+    border: 1px black solid;
 }
 
 /*---button formatting for all pages----*/
