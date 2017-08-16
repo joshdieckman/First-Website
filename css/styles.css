@@ -153,7 +153,8 @@ nav a, nav a:visited {
 }
 
 nav a:hover {
-     background-color: darkred;
+    background-color: darkred;
+    transform: scale(1.2);
 }
 
 nav a.selected {
