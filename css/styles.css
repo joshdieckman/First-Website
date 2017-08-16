@@ -129,6 +129,15 @@ label.light {
     color: white;
 }
 
+.logo h1:hover {
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    -ms-transition-duration: 1s;
+}
+
 
 /*--------------------------- Navigation ----------------------------*/
 
@@ -154,7 +163,9 @@ nav a, nav a:visited {
 
 nav a:hover {
     background-color: darkred;
-    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
 }
 
 nav a.selected {
